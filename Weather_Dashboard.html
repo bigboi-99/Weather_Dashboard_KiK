@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Weather Dashboard</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="script.js" defer></script>
+    </head>
+    <body class="full_page">
+        <div class="navbar">
+            <div class="home_b">Home</div>
+            <div class="search_b">Search</div>
+            <div class="weather_b">Weather</div>
+            <div class="details_b">Details</div>
+            <div class="about_b">About</div>
+            <div class="footer_b">Footer</div>
+        </div>
+
+        <div class="page">
+            <div class="home_s">
+            <p class="home_s_title">Home</p>
+            <p class="home_s_desc">Check the weather in your area now!</p>
+            </div>
+
+            <div class="search_s">
+                <div>
+                    <input class="search_s_input" type="text" placeholder="Enter a city name... ">
+                </div>
+                <button class="search_final">
+                    Search
+                </button>
+            </div>
+
+            <div class="weather_s">
+                <div class="weather_s_title">
+                    Weather
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="details_s_title">
+                    Details
+                </div>
+            </div>
+
+            <div class="about_s">
+                <p class="about_s_title">
+                    About
+                </p>
+                <p class="about_s_desc">
+                    This website is created to help you know the weather in your area.
+                </p>
+                <div class="weather_icon_container">
+                    <img src="images/weather_icon.png" class="weather_icon">
+                </div>
+            </div>
+
+            <div class="footer_s">
+                <div class="sm_links">
+                    <a href="#" target="_blank" class="git">
+                        Github
+                    </a>
+                    <a href="#" target="_blank" class="link_in">
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="policy">
+                    <a href="#" target="_blank" class="tnc">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <button id="back_to_top_button">
+            &#8593;
+        </button>
+    </body>
+</html>
