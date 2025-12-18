@@ -7,10 +7,10 @@
         <title>Weather Dashboard</title>
 
         <link rel="stylesheet" href="styles.css">
+
+        <script src="script.js" defer></script>
     </head>
     <body class="full_page">
-        <script src="script.js"></script>
-
         <div class="navbar">
             <div class="home_b">Home</div>
             <div class="search_b">Search</div>
@@ -27,7 +27,9 @@
             </div>
 
             <div class="search_s">
-                <input class="search_s_input" type="text" placeholder="Enter a city name... ">
+                <div>
+                    <input class="search_s_input" type="text" placeholder="Enter a city name... ">
+                </div>
                 <button class="search_final">
                     Search
                 </button>
@@ -73,5 +75,9 @@
                 </div>
             </div>
         </div>
+
+        <button id="back_to_top_button">
+            &#8593;
+        </button>
     </body>
 </html>
