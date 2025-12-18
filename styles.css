@@ -16,6 +16,33 @@
     padding-bottom: 10px;
     align-items: center;
 }
+
+#back_to_top_button {
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+    background-color: rgb(73, 6, 136);
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+#back_to_top_button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#back_to_top_button:active {
+    opacity: 0.6;
+}
+
 .home_b,
 .search_b,
 .weather_b,
@@ -91,6 +118,15 @@
     font-weight: 600;
 }
 
+.search_final:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.search_final:active {
+    opacity: 0.6;
+}
+
 .page {    
     min-height: 100vh;
     display: flex;
@@ -111,6 +147,7 @@
     display: flex;
     justify-content: center;
 }
+
 .weather_icon {
     width: 50px;
     align-items: center;
